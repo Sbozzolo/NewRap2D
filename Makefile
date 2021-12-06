@@ -1,14 +1,13 @@
 CC = gcc
 
-# Warning flags for C and C++:
-CFLAGS = -O2
+CFLAGS = -O2 -lm
 
 # Debug flags
 CFLAGS += -Wall -Wextra -pedantic -Werror
 CFLAGS += -Wmissing-declarations -g
 
 test: test_NewRap2D
-	./test_NewRap2D
+	./test_NewRap2D -v | ./greenest
 
 *.o: NewRap2D.h greatest.h Makefile test_NewRap2D.c
 
