@@ -59,4 +59,4 @@ run at every commit.
 We focus on 2D systems because we can be optimized for higher efficiency (given
 that we can solve analytically 2D systems of equations in constant time).
 However, the code can easily be generalized implementing Cramer's rule to solve
-for the generic system of equation.
+for generic systems of equation.
