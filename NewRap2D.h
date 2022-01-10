@@ -22,8 +22,8 @@
 #include <assert.h>
 #include <stdio.h>
 
-/* Number of dimensions of the system. This cannot be changed. */
-/* One can easily generalize */
+/* Number of dimensions of the system. This cannot be changed, but */
+/* one can easily generalize the code for arbitrary number of dimensions. */
 #define NUM_DIM 2
 
 /* Tolerance for double precision (e.g., to detect if the determinant of the
