@@ -1,4 +1,5 @@
 # NewRap2D
+[![Test](https://github.com/Sbozzolo/NewRap2D/actions/workflows/test.yml/badge.svg)](https://github.com/Sbozzolo/NewRap2D/actions/workflows/test.yml)
 
 `NewRap2D` is C implementation of a simple Newton-Raphson algorithm for
 non-linear 2D systems of equations.
